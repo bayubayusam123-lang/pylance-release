@@ -1,4 +1,26 @@
-## Overview
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Document</titie>
+</head>
+<body>
+   <nav>
+    <ul 
+        <li><a href="index.html" class="nav-item">Home</a></li>
+        <li><a href="profil.html" class="nav-item">Profil Perusahaan</a></li>
+        <li><a href="kontak.html" class="nav-item">Kontak Kami</a></li>
+
+        <li><a href="mailto:info@perusahaananda.com" class="nav-item">Email Admin</a></li>
+
+        <li>
+            <a href="https://maps.app.goo.gl/12345XYZ" target="_blank" class="nav-item">
+                Lihat Lokasi (Maps)
+            </a>
+        </li>
+    </ul>
+</nav>## Overview
 
 `reportUndefinedVariable` flags cases where a variable is used before it is defined or assigned a value. This diagnostic helps catch potential runtime errors and improves code reliability by ensuring all variables are properly declared before use.
 
@@ -22,3 +44,4 @@
 4. Set `python.analysis.typeCheckingMode` to 'basic' or stricter in VS Code to catch more undefined variable issues.
 5. Use `# pyright: ignore[reportUndefinedVariable]` to suppress this diagnostic for special cases.
 6. Refer to the [Pyright configuration documentation](https://github.com/microsoft/pyright/blob/main/docs/configuration.md#reportUndefinedVariable) for more details.
+
